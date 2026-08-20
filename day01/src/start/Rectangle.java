@@ -18,7 +18,7 @@ double b = sc.nextDouble();
 // 결과 출력
 double area = a * b;
 
-System.out.println("");
+
 System.out.println("직사각형의 넓이 = " + area);
 
 
