@@ -2,7 +2,7 @@ package start;
 
 import java.util.Scanner;
 
-public class Star {
+public class Star02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,15 +10,13 @@ public class Star {
 		System.out.println("");
 		int num = sc.nextInt();
 		
-		// star 01
-		System.out.println("[Star01]");
-		for (int i = 1; i <= num; i ++) {
-			for (int j = 1; j<=i; j++) {
+		System.out.println("[Star02]");
+		for (int i = 1; i<=num; i++) {
+			for (int j = num; j>=i; j--) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
 	}
+
 }
-
-
